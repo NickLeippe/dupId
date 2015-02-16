@@ -96,7 +96,7 @@ define(function(require) {
 			options.prefix = ko.utils.unwrapObservable(options.prefix);
 		}
 		if (typeof options.attr !== 'string' ||
-		    -1 === ['id', 'for', 'name'].indexOf(options.attr))
+		    -1 === ['id', 'for'].indexOf(options.attr))
 		{
 			throw new Error("ko.bindingHandlers." + bhName + ": invalid attr: " + options.attr);
 		}
