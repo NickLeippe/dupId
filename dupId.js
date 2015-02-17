@@ -23,8 +23,8 @@
  *      <td><label data-bind="dupFor: 'r2'">Radio 2</label></td>
  *    </tr>
  *    <tr>
- *      <td><input type="radio" name="thename" data-bind="dupId: 'r1'""></td>
- *      <td><input type="radio" name="thename" data-bind="dupId: 'r2'""></td>
+ *      <td><input type="radio" name="thename" data-bind="dupId: 'r1'"></td>
+ *      <td><input type="radio" name="thename" data-bind="dupId: 'r2'"></td>
  *    </tr>
  *  </table>
  *
